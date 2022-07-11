@@ -1,7 +1,6 @@
 var NumQualquer = Math.floor(Math.random() * 101)
 var numTentativas = 0
 var ganhador = false
-console.log(NumQualquer)
 function Chute(){
     var input = document.getElementById('guess')
     var erro = document.getElementById('erro')
@@ -9,8 +8,6 @@ function Chute(){
     var tentativas = document.getElementById('tentativas')
     var btnReiniciar = document.getElementById('reiniciar')
     var rodape = document.getElementById('rodape')
-    var valorInput = input.value
-    var inputString = valorInput.toString()
     
     if(ganhador === true){
     }else{
