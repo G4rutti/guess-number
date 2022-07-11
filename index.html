@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Guess Number</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Guess Number</h1>
+    </header>
+    <div class="mainContent">
+        <main class="container">
+            <input type="number" id="guess" placeholder="0 a 100" min="0" max="100">
+            <button id='btn' onclick="Chute()">CHUTAR</button>
+        </main>
+        <footer class="rodape" id="rodape">
+            <p id="maiorMenor">Tente Adivinhar o Numero</p>
+            <p id="tentativas">Tentativas: 0</p>
+            <p id="erro"></p>
+        </footer>
+        <article id="article">
+            <button onclick="reiniciar()" id="reiniciar">Reiniciar</button>
+        </article>
+    </div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
